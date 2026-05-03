@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /*.json$
+
+# Vercel default optimizations
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Respect crawl-delay for other bots
+User-agent: *
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://muthu-ten.vercel.app/sitemap.xml
